@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8838986689099051317
+--- !u!1 &5087061909427026026
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8206037068616821647}
-  - component: {fileID: 5066101709363274794}
-  - component: {fileID: 7037613152754208992}
+  - component: {fileID: 5607842961416069840}
+  - component: {fileID: 8826163443065040245}
+  - component: {fileID: 6744179657647511999}
   m_Layer: 0
   m_Name: SnakeBody
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8206037068616821647
+--- !u!4 &5607842961416069840
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8838986689099051317}
+  m_GameObject: {fileID: 5087061909427026026}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,21 +32,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5066101709363274794
+--- !u!33 &8826163443065040245
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8838986689099051317}
+  m_GameObject: {fileID: 5087061909427026026}
   m_Mesh: {fileID: 2534964839176971238, guid: 5df0d41a54a47cc449e2fc0a72e0b1ec, type: 3}
---- !u!23 &7037613152754208992
+--- !u!23 &6744179657647511999
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8838986689099051317}
+  m_GameObject: {fileID: 5087061909427026026}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
