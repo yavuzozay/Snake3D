@@ -21,6 +21,7 @@ public class SnakeController : MonoBehaviour
         direction = new Vector3(0, 0, 1);
         GameObject head = Instantiate(SnakeHead);
         Parts.Add(head);
+        AddPart();
     }
     private void Start()
     {

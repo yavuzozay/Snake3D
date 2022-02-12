@@ -19,6 +19,8 @@ public class Apple : MonoBehaviour
         {
             snake.AddPart();
             SpawnManager.Instance.Spawn(this.gameObject);
+            GameManager.Instance.score++;
+            EventManager.Fire_onScoreChanged(GameManager.Instance.score);
             Destroy(this.gameObject);
         }
     }

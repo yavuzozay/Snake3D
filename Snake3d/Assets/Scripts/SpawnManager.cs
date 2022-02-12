@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpawnManager : MonoSingleton<SpawnManager>
 {
-    
    
-    
+
+
     public  void Spawn(GameObject spawnObj)
     {
         float rndX = Random.RandomRange(Bounds.MinX, Bounds.MaxX);
