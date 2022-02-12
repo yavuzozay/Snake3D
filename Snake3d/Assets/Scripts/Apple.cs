@@ -18,7 +18,8 @@ public class Apple : MonoBehaviour
         if (other.CompareTag("SnakeHead"))
         {
             snake.AddPart();
-            Debug.Log("a");
+            SpawnManager.Instance.Spawn(this.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }
