@@ -15,6 +15,7 @@ public class SnakeHead : MonoBehaviour
     {
         if (other.gameObject.CompareTag("SnakeBody"))
         {
+
             EventManager.Fire_onGameOver();
             Debug.Log("Kuyruða bastýn !");
         }

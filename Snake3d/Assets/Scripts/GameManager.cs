@@ -7,7 +7,7 @@ public class GameManager : MonoSingleton<GameManager>
     public int score=0;
   public void GameOver()
     {
-        
+        score = 0;
         Time.timeScale = 0f;
     }
     private void OnEnable()
